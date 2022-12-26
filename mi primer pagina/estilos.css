@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+    font-family: "light";
+    margin: 0;
+    padding:0;
+}
+
+/*-----SECTOR DEL HEADER----*/
+
+.header-container {
+    max-width: 1700px;
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+.header-container .titulo-header{
+    font-size: 40px;
+
+    display: inline;
+}
+
+.header-container a{
+    font-family: "light";
+    display: inline;
+}
+
+header {
+        background-color: pink;
+        width: 100%;
+        height: 4rem;
+}
+
+
+header li {
+    margin: auto;
+    display: inline;
+    list-style: none;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    padding: 0 2rem;
+   margin-top: 1rem;
+}
+
+header a:hover{
+    color: white;
+}
+
+nav{
+    margin: auto;
+    top:0.7rem;
+    position: relative;
+    max-width: 60%;
+    float: right;
+}
+
+nav a {
+    float: right;
+    
+}
+
+ul {
+    margin: auto;
+    display: block;
+    list-style-type: disc;
+}
+
+
+/*---SECTOR DE PRESENTACIONS---*/
+
+.presentation {
+    height: 520px;
+    font-size: 25px;
+}
+
+section{
+    display: block;
+}
+
+div{
+    display: block;
+    margin: 0;
+}
+
+.presentation-foto {
+    height: 520px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.presentation-foto img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    object-fit: contain;
+    overflow: clip;
+}
+
+.presentation-content {
+    color: white;
+    text-align: center;
+    padding: 130px 0;
+    margin: auto;
+}
+
+.dark-overlay{
+    width: 100%;
+    height: 455px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+/*-------SECTOR DE TRABAJOS-------*/
+
+
+/*-----PONER EL PRECIO Y EL NOMBRE DEL TRABAJO EN CADA FOTO CON :hover------*/
+
+
+
+.trabajos{
+    height: 58rem;
+    font-size: 25px;
+    margin:0;
+font-family: monospace;
+margin-top: 3rem;
+max-width: 1700px;
+}
+
+.titulo-trabajos{
+  margin-bottom: 5rem;
+  font-size: 70px;
+}
+
+
+.trabajos .position{
+height: 300px;
+width: 300px;
+display: inline-block;
+margin: 2.2rem;
+}
+
+.trabajos-contenido1{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+    border-radius: 1000px;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box .hover{
+    width: 0%;
+    height: 50vh;
+    background-color: rgba(56, 53, 53, 0.568);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s all;
+}
+
+.hover h3{
+    color: aliceblue;
+    text-shadow: 1px 1px 1px  black;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 6rem;
+}
+
+.hover p{
+    color: aliceblue;
+    text-shadow: 1px 1px 1px  black;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 6rem;
+}
+
+.box:hover .hover{
+    width: 100%;
+}
+
+
+
+.div-sya{
+    width: 100%;
+    height: 650px;
+}
+
+
+/*---SECTOR DE SERVICIOS----*/
+
+.servicios{
+    height: 500px;
+    font-size: 25px;
+    width: 40%;
+margin: 2rem;
+
+float: left;
+
+text-align: center;
+
+}
+
+.servicios div{
+    display: block;
+}
+
+.servicios ul img{
+    border-radius: 1000px;
+}
+
+.servicios li{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+
+/*----SECTOR DE AGENDAR-----*/
+
+.agendar{
+    height: 564px;
+    font-size: 25px;
+    width: 40%;
+margin-right: 6rem ;
+
+
+float: right;
+
+background-color: rgb(240, 234, 234);
+
+}
+
+.agendar div{
+    display: block;
+    margin:   2rem;
+
+}
+
+.agendar .titulo-agendar{
+    font-size: 40px;
+}
+
+
+/*---SECTOR DE CONTACTO----*/
+
+.Contacto{
+    text-align: center;
+    width: 100%;
+    margin-top: 0rem;
+    height: 500px;
+
+}
+
+.Contacto h2{
+
+margin: 2rem;
+font-size: 100px;
+
+}
+
+.Contacto .link{
+    text-decoration: underline;
+    color: black;
+    font-size: 80px;
+    margin: 10px;
+    display: inline;
+}
+
+.Contacto .link:hover{
+    color: white;
+}
+
+.Contacto div{
+    width: 20%;
+    margin: 10px;
+}
+
+.Contacto li{
+    text-align: center;
+    width: 26%;
+    list-style: none;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.Contacto .li2{
+float: left;
+}
+
+.Contacto .li1{
+    float: right;
+}
+
+
+@font-face {
+    font-family: "Emilys Candy";
+    src: url(EmilysCandy-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: "Keepon Truckin";
+    src: url(/KeeponTruckin.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: "Light";
+    src: url(/RobotoCondensed-Light.ttf) format('truetype');
+
+}
+
+body {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+    background-color: rgb(255, 209, 240);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-family: "light";
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
